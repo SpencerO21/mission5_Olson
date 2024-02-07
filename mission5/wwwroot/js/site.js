@@ -12,7 +12,7 @@ $(document).ready(function () {
             alert("Please enter a valid positive number for hours.");
             return;
         }
-
+       
         // Calculate the total
         var hourlyRate = 20; // Assuming $20 per hour
         var total = hours * hourlyRate;
